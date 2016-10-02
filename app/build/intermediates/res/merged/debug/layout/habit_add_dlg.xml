@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameText"
+        android:text="Habit Name"
+        android:singleLine="true"
+        android:longClickable="false"
+        android:linksClickable="false"
+        android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        android:layout_above="@+id/tuesCheckBox"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saturday"
+        android:id="@+id/satCheckBox"
+        android:checked="false"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/nameText"
+        android:layout_toEndOf="@+id/friCheckBox" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sunday"
+        android:id="@+id/sunCheckBox"
+        android:checked="false"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/nameText"
+        android:layout_toEndOf="@+id/satCheckBox" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monday"
+        android:id="@+id/monCheckBox"
+        android:layout_marginTop="61dp"
+        android:checked="false"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tuesday"
+        android:id="@+id/tuesCheckBox"
+        android:checked="false"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignBaseline="@+id/monCheckBox"
+        android:layout_alignBottom="@+id/monCheckBox"
+        android:layout_toEndOf="@+id/monCheckBox" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wednesday"
+        android:id="@+id/wedCheckBox"
+        android:checked="false"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignBaseline="@+id/tuesCheckBox"
+        android:layout_alignBottom="@+id/tuesCheckBox"
+        android:layout_toEndOf="@+id/tuesCheckBox" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/thursday"
+        android:id="@+id/thuCheckBox"
+        android:checked="false"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/nameText"
+        android:layout_toEndOf="@+id/wedCheckBox" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/friday"
+        android:id="@+id/friCheckBox"
+        android:checked="false"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignBaseline="@+id/thuCheckBox"
+        android:layout_alignBottom="@+id/thuCheckBox"
+        android:layout_toEndOf="@+id/thuCheckBox" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Add"
+        android:id="@+id/addButton"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/monCheckBox"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Cancel"
+        android:id="@+id/cancelButton"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/sunCheckBox"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
