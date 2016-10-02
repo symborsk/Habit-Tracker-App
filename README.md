@@ -3,7 +3,6 @@
 -------------------------------
 ------by: John Symborski ------
 ------CCID: symborsk ----------
-------SID:   138781 -----------
 -----------------------------------------------------------------------------------------------------------------
 VIDEO DEMO: 
 watch online: http://sendvid.com/cei2tsl7
@@ -27,16 +26,16 @@ Features to note:
 -If a user sets a start date to after a prior completion the app will automatically delete any completions that were done before the start date(follows the logic that a habit needs to start to have a completion).
 
 -The complete font will turn blue if the user has completed that habit today. It is independent of the day of the week. Only based on whether  you have completed that habit today. 
-----------------------------------------------------------------------------------------------------------------------------------------------
+
 
 List of all attributions:
 ----------------------------------------------------------------------------------------------------------------------------------------------
-* http://stackoverflow.com/questions/17545060/custom-view-with-button-in-arrayadapter
-* http://stackoverflow.com/questions/14933330/datepicker-how-to-popup-datepicker-when-click-on-edittext
-* http://stackoverflow.com/questions/21253623/border-of-items-of-listview-in-android
-* http://stackoverflow.com/questions/16189651/android-listview-selected-item-stay-highlighted
-* http://stackoverflow.com/questions/2115758/how-do-i-display-an-alert-dialog-on-android
-* http://stackoverflow.com/questions/5308200/clear-text-in-edittext-when-entered
-* https://github.com/joshua2ua/lonelyTwitter
-* http://stackoverflow.com/questions/5469629/put-enum-values-to-android-spinner
-----------------------------------------------------------------------------------------------------------------------------------------------
+-http://stackoverflow.com/questions/17545060/custom-view-with-button-in-arrayadapter
+-http://stackoverflow.com/questions/14933330/datepicker-how-to-popup-datepicker-when-click-on-edittext
+-http://stackoverflow.com/questions/21253623/border-of-items-of-listview-in-android
+-http://stackoverflow.com/questions/16189651/android-listview-selected-item-stay-highlighted
+-http://stackoverflow.com/questions/2115758/how-do-i-display-an-alert-dialog-on-android
+-http://stackoverflow.com/questions/5308200/clear-text-in-edittext-when-entered
+-https://github.com/joshua2ua/lonelyTwitter
+-http://stackoverflow.com/questions/5469629/put-enum-values-to-android-spinner
+
