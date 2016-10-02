@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/habitName"
+        android:layout_alignParentEnd="true"
+        android:textSize="24sp"
+        tools:text="@string/Change" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateCreated"
+        android:layout_below="@+id/habitName"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/historyButton"
+        android:layout_alignEnd="@+id/completeButton" />
+
+    <Button
+        android:text="Habit History"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/historyButton"
+        android:textSize="10sp"
+        android:layout_marginStart="23dp"
+        android:layout_below="@+id/habitCompletionsText"
+        android:layout_toEndOf="@+id/deleteButton" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/habitCompletionsText"
+        tools:text="Completed: 6"
+        android:layout_below="@+id/habitName"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteButton"
+        android:textSize="10sp"
+        android:layout_marginStart="21dp"
+        android:layout_below="@+id/dateCreated"
+        android:layout_toEndOf="@+id/completeButton" />
+
+    <TextView
+        android:text="@string/Change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/changeTextView"
+        android:layout_below="@+id/habitName"
+        android:layout_toEndOf="@+id/dateCreated"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <Button
+        android:text="Complete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/completeButton"
+        android:textSize="10sp"
+        android:layout_marginStart="32dp"
+        android:layout_below="@+id/dateCreated"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
