@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">symborsk-HabitTracker</string>
+    <string name="monday">M</string>
+    <string name="tuesday">T</string>
+    <string name="wednesday">W</string>
+    <string name="thursday">Th</string>
+    <string name="friday">F</string>
+    <string name="saturday">S</string>
+    <string name="sunday">Su</string>
+    <string name="Add">Add</string>
+    <string name="Cancel">Cancel</string>
+    <string name="AddHabit">Add Habit</string>
+    <string name="HabitCreatorTitle">Habit Characteristics</string>
+    <string name="Change"><u>Change</u></string>
+</resources>
